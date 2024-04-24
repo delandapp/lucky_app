@@ -4,7 +4,7 @@ import 'package:get/get.dart';
 import 'package:bacadi/app/modules/book/views/book_view.dart';
 import 'package:bacadi/app/modules/bookmark/views/bookmark_view.dart';
 import 'package:bacadi/app/modules/home/views/home_view.dart';
-import 'package:bacadi/app/modules/profil/views/profil_view.dart';
+import 'package:bacadi/app/modules/profile/views/profile_view.dart';
 import 'package:bacadi/app/components/customBarMaterial.dart';
 import '../controllers/dashboard_controller.dart';
 
@@ -43,7 +43,7 @@ class DashboardView extends GetView<DashboardController> {
                   HomeView(),
                   BookView(),
                   BookmarkView(),
-                  ProfilView(),
+                  ProfileView(),
                 ],
               )),
             ),

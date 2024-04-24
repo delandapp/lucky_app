@@ -23,6 +23,7 @@ class BookController extends GetxController with StateMixin<List<DataBuku>> {
   final RxString selectedValue = "".obs;
   final RxList<DataKategori> listKategori= <DataKategori>[].obs;
   final RxList<DataBukuKategori> dataBukuKategori = <DataBukuKategori>[].obs;
+  RxList<String> listKategoriStrings = <String>[].obs;
   RxList<Map<String, String>> splashData = [
     {
       "image": "splash-1.png",

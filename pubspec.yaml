@@ -22,6 +22,7 @@ dependencies:
   flutter_dash: 1.0.0
   flutter: 
     sdk: flutter
+  flutter_dropdown: ^1.0.1+hotfix.1
 
 dev_dependencies: 
   flutter_lints: ^2.0.0

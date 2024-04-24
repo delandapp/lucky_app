@@ -41,8 +41,11 @@ class BookView extends GetView<BookController> {
                       ),
                     ),
                   ),
-                  Padding(
-                    padding: const EdgeInsets.all(8.0),
+                  Container(
+                    decoration: BoxDecoration(
+                      color: const Color(0xFFDEA06C),
+                      borderRadius: BorderRadius.circular(10)
+                    ),
                     child: SizedBox(
                         height: 40,
                         width: widthFullBody * 0.4,

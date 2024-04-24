@@ -9,7 +9,7 @@ abstract class Routes {
   static const REGISTER = _Paths.REGISTER;
   static const DASHBOARD = _Paths.DASHBOARD;
   static const BOOK = _Paths.BOOK;
-  static const PROFIL = _Paths.PROFIL;
+  static const PROFILE = _Paths.PROFILE;
   static const BOOKMARK = _Paths.BOOKMARK;
   static const DETAILBOOK = _Paths.DETAILBOOK;
   static const PINJAM = _Paths.PINJAM;
@@ -24,7 +24,7 @@ abstract class _Paths {
   static const REGISTER = '/register';
   static const DASHBOARD = '/dashboard';
   static const BOOK = '/book';
-  static const PROFIL = '/profil';
+  static const PROFILE = '/profile';
   static const BOOKMARK = '/bookmark';
   static const DETAILBOOK = '/detailbook';
   static const PINJAM = '/pinjam';
